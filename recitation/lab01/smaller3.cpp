@@ -4,7 +4,7 @@ Course: CSCI-136
 Instructor: 
 Assignment: Lab1A
 
-Task A. Find the smaller of two integers.
+Write a program smaller3.cpp that asks the user to input three integer numbers, and prints out the smallest of the three.
 */
 #include <iostream>
 using namespace std;
