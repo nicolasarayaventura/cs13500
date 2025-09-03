@@ -2,7 +2,7 @@
 Author: Nicolas Araya Ventura
 Course: CSCI-136
 Instructor: 
-Assignment: Lab1A
+Assignment: Lab1B
 
 Write a program smaller3.cpp that asks the user to input three integer numbers, and prints out the smallest of the three.
 */
