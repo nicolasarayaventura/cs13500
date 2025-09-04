@@ -10,7 +10,6 @@ You may not use switch case or arrays even if you know these language constructs
 */
 #include <iostream>
 using namespace std;
-
 int main() {
     cout << "Enter year: ";
     int year;
@@ -21,26 +20,24 @@ int main() {
     cin >> month;
 
     string out1 = "31 days";
-    string out2 = "30 days:";
+    string out2 = "30 days";
 
-    //month case
+    // first 7 months
     if (month <= 7) {
-        if (month = month % 2) {
-             cout << out1 << endl;
-
+        if (month % 2 == 0) {
+            cout << out2 << endl;
+        } else {
+            cout << out1 << endl;
+        }
+    // months 8- 12
+    } else {
+        if (month % 2 == 0) {        
+            cout << out1 << endl;
+        } else {
+            cout << out2 << endl;
         }
     }
-
-
-    // leap year case
-     if (year % 400 == 0) {
-        cout << "Leap year" << endl;
-    }  else if (year % 4 == 0) {
-        cout << "Leap year" << endl;
-    }
-    
-    
-    return 0;
+return 0;
 }
 
 
