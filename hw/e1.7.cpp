@@ -11,8 +11,10 @@ or favorite movies, on three separate lines.
 using namespace std;
 
 int main () {
-    cout << "My friends name is Zack" << endl ;
-    cout << "His favorite movie is Despicable Me" << endl;
-    cout << "He enjoys cycling" << endl ;
+    string names
+cout << " Enter your friends name: ";
+    getline(cin, names)
+    cin >> names;
+cout << names << endl; 
 return 0;
 }
