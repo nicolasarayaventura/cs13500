@@ -8,13 +8,21 @@ Write a program that prints three items, such as the names of your three best fr
 or favorite movies, on three separate lines.
 */
 #include <iostream>
+#include <string>
 using namespace std;
 
-int main () {
-    string names
-cout << " Enter your friends name: ";
-    getline(cin, names)
-    cin >> names;
-cout << names << endl; 
-return 0;
+int main() {
+    string name1, name2, name3;
+
+    cout << "Enter your friend's name: ";
+    cin >> name1;
+    cin >> name2;
+    cin >> name3;
+
+    cout << name1 << endl;
+    cout << name2 << endl;
+    cout << name3 << endl;
+
+    return 0;
 }
+
