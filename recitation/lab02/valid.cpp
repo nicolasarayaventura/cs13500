@@ -1,5 +1,5 @@
 /*
-Author: your name
+Author: Nicolas Araya
 Course: CSCI-136
 Instructor: Sarah Khaldi
 Assignment: title, e.g., Lab1A
