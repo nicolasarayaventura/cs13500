@@ -1,7 +1,7 @@
 /*
 Author: Nicolas Araya Ventura
 Course: CSCI-136
-Instructor: 
+Instructor: Sarah Khaldi
 Assignment: Lab1A
 
 Task A. Find the smaller of two integers.

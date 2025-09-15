@@ -1,7 +1,7 @@
 /*
 Author: Nicolas Araya Ventura
 Course: CSCI-136
-Instructor: 
+Instructor: Sarah Khaldi
 Assignment: Lab1C
 
 Write a program leap.cpp that asks the user to input an integer representing a year number 
